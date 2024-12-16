@@ -1,49 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Quick HTML Page</title> 
-    
-    <style>
-      
-        body {
-            font-family: Arial, sans-serif; /* Sets the font family */
-            margin: 0; /* Removes default margin */
-            padding: 0; /* Removes default padding */
-            display: flex; /* Enables flexbox for centering */
-            align-items: center; /* Vertically centers the content */
-            justify-content: center; /* Horizontally centers the content */
-            height: 100vh; /* Sets the body height to 100% of the viewport height */
-            background-color: #f4f4f4; /* Light gray background color */
-        }
-
-        
-        .container {
-            text-align: center; /* Aligns text to the center */
-            padding: 20px; /* Adds padding around the content */
-            background: white; /* Sets background color to white */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow */
-            border-radius: 8px; /* Rounds the corners of the container */
-        }
-
-       
-        h1 {
-            color: #333; /* Dark gray color for headings */
-        }
-
-       
-        p {
-            color: #666; /* Slightly lighter gray for paragraph text */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Flipper</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   
-    <div class="container">
-        <h1>Hello</h1> <!-- Main heading -->
-        <p>Html osio1</p> <!-- Simple paragraph content -->
-    </div>
+  <div class="container">
+    <h1>Color Flipper</h1>
+    <p>Current Color: <span id="color-name">#FFFFFF</span></p>
+    <button id="btn-flip">Flip Color</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
