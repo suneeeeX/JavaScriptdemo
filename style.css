@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font family to Arial with a fallback to sans-serif */
+    text-align: center; /* Centers the text content */
+    background-color: #FFFFFF; /* Default background color (white) */
+    transition: background-color 0.5s ease; /* Smooth transition effect for background color changes */
+    margin: 0; /* Removes default margin */
+    height: 100vh; /* Sets the body height to 100% of the viewport height */
+    display: flex; /* Enables flexbox for alignment */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+  }
+  
+  
+  .container {
+    text-align: center; /* Centers all the text inside the container */
+    padding: 20px; /* Adds space inside the container around the content */
+    border: 2px solid #000; /* Adds a solid black border 2px  */
+    border-radius: 8px; /* Rounds the corners of the container */
+    background-color: #f4f4f4; /* Light gray background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for a lifted effect */
+  }
+  
+  
+  h1 {
+    font-size: 2rem; /* Sets the font size to 2 rem */
+    margin-bottom: 1rem; /* Adds space below the heading */
+  }
+  
+  
+  #color-name {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 1.5rem; /* Sets the font size to 1.5 rem */
+    color: #333; /* Dark gray text color */
+  }
+  
+  
+  #btn-flip {
+    padding: 10px 20px; /* Adds padding inside the button top/bottom: 10px, left/right: 20px */
+    font-size: 1rem; /* Sets the button text size to 1 rem */
+    background-color: #007BFF; /* Sets the button background color to blue */
+    color: #fff; /* Sets the text color to white */
+    border: none; /* Removes the button border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the mouse cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Adds a smooth transition effect for hover state */
+  }
+  
+  
+  #btn-flip:hover {
+    background-color: #0056b3; /* Changes the button color to a darker blue on hover */
+  }
+  
